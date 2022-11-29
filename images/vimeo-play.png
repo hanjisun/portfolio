@@ -1,0 +1,27 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<title>Request Timed Out</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale = 1.0; maximum-scale=1.0, user-scalable=no" />
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<link href="//fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet" type="text/css">
+	<link href="/local-error-page-assets/errors.css" rel="stylesheet" type="text/css">
+</head>
+
+<body class="error">
+<div class="layout">
+	<div class="layout__content">
+		<div class="kitchensink text-center">
+			<p class="error-code">504</p>
+			<h1>Request Timed&nbsp;Out</h1>
+			<hr />
+			<p>The page you requested generated a server timeout and could not be processed.<br /><strong>If you continue to get this message after refreshing, try restarting the Local site.</strong></p>
+			<p>If the error persists, check the Local Router Logs in Local by going to<br />Help &raquo; Reveal Local Router's Logs.</p>
+		</div>
+
+		<img src="/local-error-page-assets/local-gray.svg" />
+	</div>
+</div>
+</body>
+</html>
