@@ -446,7 +446,7 @@
 	top: 0px;
 	right: 0px;
 	bottom: 0px;
-	background-image: url(../images/bg-repeater.png);
+	background-image: url(./../images/bg-repeater.png);
 	background-repeat: repeat;
 }
 .fn_cs_about .leftpart h3.title{
@@ -20452,4 +20452,3 @@ body.admin-bar .fn_cs_posts_slider .title_holder{
 .fn_cs_interactive_list_horizontal_half[data-animation="scale"] .project_list_wrap ul li.opened{
 	transform: scale(1);
 }
-/*This file was exported by "Export WP Page to Static HTML" plugin which created by ReCorp (https://myrecorp.com) */

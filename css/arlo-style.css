@@ -2532,7 +2532,7 @@ img.retina_logo{
 	position: absolute;
 	z-index: 22;
 	
-	background-image: url(../images/home.png);
+	background-image: url(./../images/home.png);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -6385,5 +6385,3 @@ p.comment-form-cookies-consent{
 .arlo_fn_rightsidebar .arlo_fn_widget_subscribers a:hover{
 	background-color: #333;
 }
-
-/*This file was exported by "Export WP Page to Static HTML" plugin which created by ReCorp (https://myrecorp.com) */

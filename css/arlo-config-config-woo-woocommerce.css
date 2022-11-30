@@ -855,7 +855,7 @@ span.woocommerce-Price-amount.amount{
 	position: absolute;
 	z-index: 22;
 	
-	background-image: url(../images/cart.png);
+	background-image: url(./../images/cart.png);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1451,7 +1451,7 @@ h3#order_review_heading{
 	position: absolute;
 	z-index: 22;
 	
-	background-image: url(../images/login.png);
+	background-image: url(./../images/login.png);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1981,4 +1981,3 @@ a.fn_cartbox_updater:hover,
 	line-height: 40px;
 	padding:  0 15px;
 }
-/*This file was exported by "Export WP Page to Static HTML" plugin which created by ReCorp (https://myrecorp.com) */
