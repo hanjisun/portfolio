@@ -32,6 +32,7 @@ Tags: custom-header, custom-background, threaded-comments, custom-menu, featured
 /*------------------------------------------------------------------*/
 /*	00) PRELOADER
 /*------------------------------------------------------------------*/
+
 .arlo_fn_preloader{
   position: fixed;
   background-color: #fff;
@@ -6386,11 +6387,29 @@ p.comment-form-cookies-consent{
 	background-color: #333;
 }
 
-/*Project section animation*/
-.elementor-slides-wrapper.elementor-main-swiper.swiper-container {
-    transition: all 0.3s ease-out;
+/* Styled form inputs */
+html .frm_forms input {
+    border-top: 0 !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+    border-bottom: 1px solid #333 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
 }
-/*hover*/
-.elementor-slides-wrapper.elementor-main-swiper.swiper-container:hover {
-    transform: scale(1.04);
+/* styled form textarea */
+html .frm_forms textarea {
+    border-top: 0 !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+    border-bottom: 1px solid #333 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+}
+
+.fn_cs_about_text_slider .right_part {
+    width: 80%;
+}
+
+.fn_cs_about_text_slider ul li label {
+    min-width: 0px;
 }
