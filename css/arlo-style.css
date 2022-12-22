@@ -6405,11 +6405,12 @@ html .frm_forms textarea {
     border-radius: 0 !important;
     box-shadow: none !important;
 }
-
-.fn_cs_about_text_slider .right_part {
-    width: 80%;
+@media screen and (min-width: 1024px) {
+	.fn_cs_about_text_slider .right_part {
+	    width: 80%;
+	}
 }
 
-/*.fn_cs_about_text_slider ul li label {
+.fn_cs_about_text_slider ul li label {
     min-width: 0px;
-}*/
+}
