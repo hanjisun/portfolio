@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+.arlo_fn_dev_popup{
+	position: fixed;
+	right: 0;
+	top: 200px;
+	z-index: 77;
+	width: 51px;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+	border-radius: 5px;
+	background-color: #fff;
+	border: 1px solid #e0e0e0;
+}
+.arlo_fn_dev_popup .fn_tooltip:after{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 5px 0 5px 4px;
+	border-color: transparent transparent transparent #23d044;
+	content: '';
+	position: absolute;
+	left: 100%;
+	top: 50%;
+	margin-top: -5px;
+}
+.arlo_fn_dev_popup .fn_tooltip{
+	padding: 0 20px;
+	display: block;
+	position: absolute;
+	right: 100%;
+	border-radius: 3px;
+	background-color: #23d044;
+	font-family: 'Heebo';
+	font-size: 13px;
+	color: #fff;
+	text-transform: uppercase;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+	font-weight: 600;
+	height: 30px;
+	line-height: 30px;
+	top: 50%;
+	margin-top: -15px;
+	margin-right: 7px;
+	opacity: 0;
+	visibility: hidden;
+	transition: all .3s ease;
+	transform: translateY(20px);
+}
+.arlo_fn_dev_popup .arlo_fn_svg{
+	width: 21px;
+	height: 21px;
+	color: #444;
+	top: 50%;
+	left: 50%;
+	margin: -10px 0 0 -10px;
+	position: absolute;
+}
+.arlo_fn_dev_popup .fn_price_item{
+	height: 44px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.arlo_fn_dev_popup .fn_demo_item{
+	height: 51px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.arlo_fn_dev_popup .fn_demo_item a{
+	bottom: -1px;
+}
+.arlo_fn_dev_popup .fn_demo_item .fn_tooltip{
+	transform: translateY(-20px);
+}
+.arlo_fn_dev_popup .fn_text{
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 45px;
+	color: #444;
+	font-weight: 800;
+	letter-spacing: 0;
+	font-family: 'Heebo';
+	font-size: 20px;
+}
+.arlo_fn_dev_popup .fn_text span{
+	font-size: 12px;
+	position: relative;
+	top: -6px;
+}
+.arlo_fn_dev_popup .fn_item{
+	z-index: 3;
+	width: 100%;
+	position: relative;
+	border-bottom: 1px solid #e0e0e0;
+	transition: all .3s ease;
+}
+.arlo_fn_dev_popup .fn_item:last-child{
+	border-bottom: none;
+}
+.arlo_fn_dev_popup a{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: block;
+	z-index: 5;
+}
+.arlo_fn_dev_popup .fn_item:hover{
+	background-color: #f5f5f5;
+}
+.arlo_fn_dev_popup .fn_item:hover .fn_tooltip{
+	opacity: 1;
+	visibility: visible;
+	transform: translateY(0px);
+}
