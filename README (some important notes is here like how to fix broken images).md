@@ -20,9 +20,17 @@ images/2026/
 ../images/2026/
 
 
+----------- STEPS HOW TO FIX BROKEN BLANK IMAGES:-------------
+
+My original images link path:
+
+From: http://portfolio-staging-v2/wp-content/uploads/2026/01/Profile-December-2025.jpg
+To: images/2026/Profile-December-2025.jpg
 
 
+Recent Projects:
 
-
+From: http://localhost:10011/wp-content/uploads/2022/12/fbr1.jpg
+To: ../images/2026/fbr1.jpg
 
 
